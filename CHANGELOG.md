@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.2.0"></a>
+## [1.2.0](https://www.github.com/ricbaiano/version-me/releases/tag/v1.2.0) (2023-2-10)
+
+### Features
+
+* Nova mensagem informando o ajuste ([33cca39](https://www.github.com/ricbaiano/version-me/commit/33cca39dbef3031b6cd7d73f559756fab3304830))
+* Novo ajuste ([d98043a](https://www.github.com/ricbaiano/version-me/commit/d98043a7782753f1a1815ec4a1e5b4bed0bb1fa6))
+
+### Bug Fixes
+
+* Ajuste na quantidade de mensagens do sistema ([7b3d6f8](https://www.github.com/ricbaiano/version-me/commit/7b3d6f85a3ac7aa51e5992579cd8239f1777d3dc))
+
 <a name="1.1.0"></a>
 ## [1.1.0](https://www.github.com/ricbaiano/version-me/releases/tag/v1.1.0) (2023-2-10)
 
