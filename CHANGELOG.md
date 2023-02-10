@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.1.0"></a>
+## [2.1.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.1.0) (2023-2-10)
+
+### Features
+
+* Implementando alguma coisa ([996df56](https://www.github.com/ricbaiano/version-me/commit/996df5684214a9c331786a3aba13aa9c7c960565))
+* Implementando CI github ([f20666c](https://www.github.com/ricbaiano/version-me/commit/f20666cc2bd9c4d88adbef536c0c9b49436bafa2))
+
 <a name="2.0.0"></a>
 ## [2.0.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.0.0) (2023-2-10)
 
