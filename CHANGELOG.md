@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.0.0"></a>
+## [2.0.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.0.0) (2023-2-10)
+
+### Features
+
+* Mudanca de comportamento ([af11713](https://www.github.com/ricbaiano/version-me/commit/af11713ee29e6988358139e53daf22bc0f54f45a))
+
+### Breaking Changes
+
+* Mudanca de comportamento ([af11713](https://www.github.com/ricbaiano/version-me/commit/af11713ee29e6988358139e53daf22bc0f54f45a))
+
 <a name="1.2.0"></a>
 ## [1.2.0](https://www.github.com/ricbaiano/version-me/releases/tag/v1.2.0) (2023-2-10)
 
