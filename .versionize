@@ -1,0 +1,38 @@
+﻿{
+  "changelogAll": true,
+  "changelog": {
+    "header": "My Changelog",
+    "sections": [
+      {
+        "type": "feat",
+        "section": "✨ Features",
+        "hidden": false
+      },
+      {
+        "type": "fix",
+        "section": "🐛 Bug Fixes",
+        "hidden": true
+      },
+      {
+        "type": "perf",
+        "section": "🚀 Performance",
+        "hidden": false
+      },
+      {
+        "type": "ci",
+        "section": "🚀 Integracao Continua",
+        "hidden": false
+      },
+      {
+        "type": "doc",
+        "section": "🚀 Documentacao",
+        "hidden": false
+      },
+      {
+        "type": "style",
+        "section": "🚀 Estilo",
+        "hidden": false
+      }
+    ]
+  }
+}

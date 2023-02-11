@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github\\workflows"
   ],
-  "SelectedNode": "\\VersionMe.csproj",
+  "SelectedNode": "\\.versionize",
   "PreviewInSolutionExplorer": false
 }
