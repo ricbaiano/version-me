@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.5.0"></a>
+## [2.5.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.0) (2023-2-11)
+
+### ✨ Features
+
+* nova tela 13 no sistema ([5f46629](https://www.github.com/ricbaiano/version-me/commit/5f466299a1beecf750647036bf843976fab4ae99))
+
+### 🐛 Bug Fixes
+
+* corrigindo codigo da tela yzt ([ffc76b5](https://www.github.com/ricbaiano/version-me/commit/ffc76b542c216ddeb50e225d1e38c7e37c614b29))
+
+### ⚡ Integracao Continua
+
+* Ajustando configuracao do actions no github ([5425d7e](https://www.github.com/ricbaiano/version-me/commit/5425d7eedf3903e3ea6b61a9cc843be902e80652))
+
 <a name="2.4.0"></a>
 ## [2.4.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.4.0) (2023-2-11)
 
