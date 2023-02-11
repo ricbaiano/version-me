@@ -5,7 +5,7 @@
     "sections": [
       {
         "type": "feat",
-        "section": "✨ Features",
+        "section": "🆕 Features",
         "hidden": false
       },
       {
@@ -20,17 +20,37 @@
       },
       {
         "type": "ci",
-        "section": "⚡ Integracao Continua",
+        "section": "⚡ Continuous Integration",
         "hidden": false
       },
       {
-        "type": "doc",
-        "section": "⌛ Documentacao",
+        "type": "docs",
+        "section": "📝 Documentation",
         "hidden": false
       },
       {
         "type": "style",
-        "section": "🥂 Estilo",
+        "section": "✨ Style",
+        "hidden": false
+      },
+      {
+        "type": "test",
+        "section": "🧪 Test",
+        "hidden": false
+      },
+      {
+        "type": "refactor",
+        "section": "⚙️ Refactor",
+        "hidden": false
+      },
+      {
+        "type": "build",
+        "section": "🛠️ Build",
+        "hidden": false
+      },
+      {
+        "type": "revert",
+        "section": "🔙 Revert",
         "hidden": false
       }
     ]
