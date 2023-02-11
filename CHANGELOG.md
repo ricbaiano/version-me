@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.5.1"></a>
+## [2.5.1](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.1) (2023-2-11)
+
+### 📝 Documentation
+
+* Ajustando documento de configuracao do versionamento e commit semantico ([3468909](https://www.github.com/ricbaiano/version-me/commit/3468909c487054792e3cfc15fac3d99512529bf1))
+
+### ⚙️ Refactor
+
+* refatorando codigo da tela principal do sistema ([24b0484](https://www.github.com/ricbaiano/version-me/commit/24b048423b79d46088c419f41bf22d9eb83d436e))
+
 <a name="2.5.0"></a>
 ## [2.5.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.0) (2023-2-11)
 
