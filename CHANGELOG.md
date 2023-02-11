@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.3.2"></a>
+## [2.3.2](https://www.github.com/ricbaiano/version-me/releases/tag/v2.3.2) (2023-2-11)
+
+### 🚀 Integracao Continua
+
+* Melhorando configuracao de integracao continua ([96a9e81](https://www.github.com/ricbaiano/version-me/commit/96a9e8145c0b84d59c7b04290a2ee2e2630f609b))
+
 <a name="2.3.1"></a>
 ## [2.3.1](https://www.github.com/ricbaiano/version-me/releases/tag/v2.3.1) (2023-2-10)
 
