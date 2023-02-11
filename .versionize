@@ -11,7 +11,7 @@
       {
         "type": "fix",
         "section": "🐛 Bug Fixes",
-        "hidden": true
+        "hidden": false
       },
       {
         "type": "perf",
@@ -20,17 +20,17 @@
       },
       {
         "type": "ci",
-        "section": "🚀 Integracao Continua",
+        "section": "⚡ Integracao Continua",
         "hidden": false
       },
       {
         "type": "doc",
-        "section": "🚀 Documentacao",
+        "section": "⌛ Documentacao",
         "hidden": false
       },
       {
         "type": "style",
-        "section": "🚀 Estilo",
+        "section": "🥂 Estilo",
         "hidden": false
       }
     ]
