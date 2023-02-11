@@ -29,7 +29,7 @@ jobs:
         git config --local user.name "ricbaiano"
     - name: Versionize Release
       id: versionize
-      run: versionize --changelog-all --exit-insignificant-commits
+      run: versionize --changelog-all --exit-insignificant-commits --skip-dirty
       continue-on-error: true
     - name: No release required
       if: steps.versionize.outcome != 'success'
