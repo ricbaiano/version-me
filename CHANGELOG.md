@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.4.0"></a>
+## [2.4.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.4.0) (2023-2-11)
+
+### ✨ Features
+
+* implementando nova tela xpto ([128f293](https://www.github.com/ricbaiano/version-me/commit/128f293393b4187f9248f295e9d2346ff0021539))
+
+### Other
+
+* corrigindo nova tela xpto ([7ba0616](https://www.github.com/ricbaiano/version-me/commit/7ba061650d130746c24a86a8c075096a00e57cd7))
+
 <a name="2.3.2"></a>
 ## [2.3.2](https://www.github.com/ricbaiano/version-me/releases/tag/v2.3.2) (2023-2-11)
 
