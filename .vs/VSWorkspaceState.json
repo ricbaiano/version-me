@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\workflows"
+    "\\.github",
+    "\\.github\\workflows",
+    "\\src",
+    "\\src\\bin",
+    "\\src\\bin\\Debug",
+    "\\src\\bin\\Release",
+    "\\src\\obj"
   ],
-  "SelectedNode": "\\.versionize",
+  "SelectedNode": "\\src\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
