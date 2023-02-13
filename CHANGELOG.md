@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.5.2"></a>
+## [2.5.2](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.2) (2023-2-13)
+
+### 📝 Documentation
+
+* Configurando o arquivo README.md do projeto ([b1df903](https://www.github.com/ricbaiano/version-me/commit/b1df903c84a89ac58b187e646b6905bfb0e534a7))
+
 <a name="2.5.1"></a>
 ## [2.5.1](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.1) (2023-2-11)
 
