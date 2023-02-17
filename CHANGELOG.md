@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.8.0"></a>
+## [2.8.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.8.0) (2023-2-17)
+
+### 🆕 Features
+
+* SSCDD-99 - Ajuste no jenkinsfile terceiro build ([0328a7b](https://www.github.com/ricbaiano/version-me/commit/0328a7bb422b5bfe6480b0e84df7004823996c6b))
+
 <a name="2.7.0"></a>
 ## [2.7.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.7.0) (2023-2-17)
 
