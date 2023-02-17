@@ -1,4 +1,4 @@
-﻿<h2 align='center'>SIAPI - Sistema Integrado de Acompanhamento da Propriedade Intelectual Teste</h2>
+﻿<h2 align='center'>SIAPI - Sistema Integrado de Acompanhamento da Propriedade Intelectual T</h2>
 
 --------------------------------------------------------------------------
 <br>
