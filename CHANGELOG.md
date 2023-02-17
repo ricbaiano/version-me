@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.5.3"></a>
+## [2.5.3](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.3) (2023-2-17)
+
+### ⚡ Continuous Integration
+
+* Configurando jenkinsfile inicial ([a01de3a](https://www.github.com/ricbaiano/version-me/commit/a01de3a11a0eb7d66a278f4b97ad72a7a3aea142))
+* Configurando jenkinsfile inicial ([74f91a3](https://www.github.com/ricbaiano/version-me/commit/74f91a3e57ebd2c138d2d34d67d30f6b8c25dc9a))
+* TESTEJJ-1 testando deploy ([c1859b1](https://www.github.com/ricbaiano/version-me/commit/c1859b13f5ba587b7202f983e273dd4f118e7b19))
+
+### 📝 Documentation
+
+* atualizando o readme com jenkins ([3a38280](https://www.github.com/ricbaiano/version-me/commit/3a38280ae52c75d71ee31f53a62e990b50ef04cc))
+
+### Other
+
+* Merge branch 'main' of https://github.com/ricbaiano/version-me ([825955c](https://www.github.com/ricbaiano/version-me/commit/825955c5683b6adefa2ac62c317840a4bfa05b45))
+
 <a name="2.5.2"></a>
 ## [2.5.2](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.2) (2023-2-13)
 
