@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.5.5"></a>
+## [2.5.5](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.5) (2023-2-17)
+
+### ⚡ Continuous Integration
+
+* Ajuste no jenkinsfile segundo build ([68cd8bf](https://www.github.com/ricbaiano/version-me/commit/68cd8bf22c1d573ea5fd3c82dbe0e70826d557f5))
+
 <a name="2.5.4"></a>
 ## [2.5.4](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.4) (2023-2-17)
 
