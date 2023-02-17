@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.5.6"></a>
+## [2.5.6](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.6) (2023-2-17)
+
+### ⚡ Continuous Integration
+
+* Ajuste no jenkinsfile terceiro build ([4beec92](https://www.github.com/ricbaiano/version-me/commit/4beec9234ff1e35aafee6d3ff24b17f23970e380))
+
+### Other
+
+* ci:TESTEJJ-4 Ajuste no jenkinsfile terceiro build ([bdf2406](https://www.github.com/ricbaiano/version-me/commit/bdf2406ab9589e3a41a09088ff782c2664158aa2))
+
 <a name="2.5.5"></a>
 ## [2.5.5](https://www.github.com/ricbaiano/version-me/releases/tag/v2.5.5) (2023-2-17)
 
