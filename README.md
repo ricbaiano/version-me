@@ -3,9 +3,12 @@
 --------------------------------------------------------------------------
 <br>
 <p>
-  <img src="https://img.shields.io/static/v1?label=angular&message=framework&color=blue&style=for-the-badge&logo=ANGULAR"/>
-  <img src="https://img.shields.io/static/v1?label=nodejs&message=framework&color=grenn&style=for-the-badge&logo=NPM"/>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=orange&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
+  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white"/>
+
 </p>
 <br>
 <h3> Tópicos</h3>
@@ -14,7 +17,7 @@
 
 🔹: [Funcionalidades](#funcionalidades)
 
-🔹: [Pré-requisitos](#pré-requisitos)
+🔹: [Pré-requisitos para instalação/desenvolvimento da aplicação](#Pré-requisitos-para-instalação/desenvolvimento-da-aplicação)
 
 🔹: [Como rodar o banco de dados](#como-rodar-o-banco-de-dados)
 
@@ -37,12 +40,15 @@
 
 ✅ : ...
 
-## Pré-requisitos
-⚠️ : [DotNet 4.8.1]()
+## Pré-requisitos para instalação/desenvolvimento da aplicação
 
-⚠️ : [Oracle 19G]()
+⚠️ : [IIS em sistema operacional Windows 2012+]
 
-⚠️ : [Bootstrap ]()
+⚠️ : [Oracle 11+ (Banco atual na versão Oracle 19)]
+
+⚠️ : [Microsoft.NET Framework 4.5.1]
+
+⚠️ : [TNSNAMES.ORA configurado para acessar os ambientes de DESENV, HOMOLOG e PROD do CENPES]
 
 ## Como rodar o banco de dados
 
