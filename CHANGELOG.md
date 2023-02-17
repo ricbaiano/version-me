@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.7.0"></a>
+## [2.7.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.7.0) (2023-2-17)
+
+### 🆕 Features
+
+* **TESTEJJ-6:** Nova tela 23 ([aba23fe](https://www.github.com/ricbaiano/version-me/commit/aba23fefe8be93745a87fe228f4d0f35b86ebba0))
+
 <a name="2.6.0"></a>
 ## [2.6.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.6.0) (2023-2-17)
 
