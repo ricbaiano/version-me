@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.9.5"></a>
+## [2.9.5](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.5) (2023-2-22)
+
+### ⚡ Continuous Integration
+
+* **TESTEJJ-6:** Ajuste no jenkinsfile teste versao 4 ([c0da5f6](https://www.github.com/ricbaiano/version-me/commit/c0da5f6c43fab34a2088c74a09408e9b6d97f819))
+
 <a name="2.9.4"></a>
 ## [2.9.4](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.4) (2023-2-22)
 
