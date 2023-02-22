@@ -1,7 +1,7 @@
 pipeline {
     agent  any
     stages {
-        stage('deployments') {
+        stage('ambientes de deploy') {
             parallel {
                 stage('deploy to dsv') {
                     steps {
