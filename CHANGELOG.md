@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.9.0"></a>
+## [2.9.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.0) (2023-2-22)
+
+### 🆕 Features
+
+* SSCDD-XX - Nova feature ABCD ([ddaf87c](https://www.github.com/ricbaiano/version-me/commit/ddaf87cfc8a09e84698d0003cffad7fa10e1cf65))
+
 <a name="2.8.0"></a>
 ## [2.8.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.8.0) (2023-2-17)
 
