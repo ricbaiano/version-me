@@ -3,11 +3,14 @@ pipeline {
     stages {
         stage('deployments') {
             parallel {
-                stage('JIRA') {
-                     def versao = jiraJqlSearch jql: "project = testejenkinsjira AND fixVersion = teste-123"
-                     echo versao.data.toString()
+                stage('deploy to dsv') {
                     steps {
-                        echo 'Jira deployment done'
+                        echo 'dsv deployment done'
+                    }
+                }
+                stage('deploy to hmg') {
+                    steps {
+                        echo 'hmg deployment done'
                     }
                 }
                 stage('deploy to prod') {
