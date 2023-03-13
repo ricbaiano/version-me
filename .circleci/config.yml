@@ -46,7 +46,7 @@ jobs:
     working_directory: ~/repo
     steps:
        - checkout
-       - run: echo "Ola Deploy"
+       - run: echo "Ola Deploy doido"
        - jira/notify:
             job_type: deployment
             environment_type: <<parameters.environment-type>>
