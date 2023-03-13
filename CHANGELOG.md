@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.9.6"></a>
+## [2.9.6](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.6) (2023-3-13)
+
+### ⚡ Continuous Integration
+
+* configuracao inicial de circleci ([3867f7a](https://www.github.com/ricbaiano/version-me/commit/3867f7a3e003fda9c58040188cdb610240aadfa0))
+
 <a name="2.9.5"></a>
 ## [2.9.5](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.5) (2023-2-22)
 
