@@ -40,7 +40,7 @@ jobs:
     parameters:
       environment-type:
         - type: string
-        - default: development
+        - default: Dev
     docker:
       - image: circleci/note:10
     working_directory: ~/version-me
