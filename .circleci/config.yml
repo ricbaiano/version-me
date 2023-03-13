@@ -11,19 +11,19 @@ workflows:
                 name: Dev
                 requires:
                 - build-job
-           - deploy:
-                name: Test
-                requires:
-                - Dev
-                environment-type: testing
-           - hold:
-                type: approval
-                requires:
-                - Test                
+           #- deploy:
+           #     name: Test
+           #     requires:
+           #     - Dev
+           #     environment-type: testing
+           #- hold:
+           #     type: approval
+           #     requires:
+           #     - Test                
            - deploy:
                 name: Prod
                 requires:
-                - hold
+                - Dev
                 environment-type: production
 
 jobs:
