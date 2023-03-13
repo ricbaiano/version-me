@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.9.15"></a>
+## [2.9.15](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.15) (2023-3-13)
+
+### Other
+
+* TESCI-1 - Ajuste circleci no jira ([eeebe7a](https://www.github.com/ricbaiano/version-me/commit/eeebe7a1bb6cce50996c276313810ad5b9d3da13))
+
 <a name="2.9.14"></a>
 ## [2.9.14](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.14) (2023-3-13)
 
