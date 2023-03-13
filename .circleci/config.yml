@@ -11,19 +11,19 @@ workflows:
                 name: Dev
                 requires:
                 - build-job
-           #- deploy:
-           #     name: Test
-           #     requires:
-           #     - Dev
-           #     environment-type: testing
-           #- hold:
-           #     type: approval
-           #     requires:
-           #     - Test                
+           - deploy:
+                name: Test
+                requires:
+                - Dev
+                environment-type: testing
+           - hold:
+                type: approval
+                requires:
+                - Test                
            - deploy:
                 name: Prod
                 requires:
-                - Dev
+                - hold
                 environment-type: production
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
     parameters:
       environment-type:
         - type: string
-        - default: Dev
+        - default: development
     docker:
       - image: circleci/note:10
     working_directory: ~/version-me
@@ -49,4 +49,4 @@ jobs:
        - run: echo "Ola Deploy doido"
        - jira/notify:
             job_type: deployment
-            environment_type: << parameters.environment-type >>
+            environment_type: <<parameters.environment-type>>
