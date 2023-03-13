@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.9.13"></a>
+## [2.9.13](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.13) (2023-3-13)
+
+### ⚡ Continuous Integration
+
+* **TESCI-1:** configuracao inicial de circleci parte 8 ([9f41f4e](https://www.github.com/ricbaiano/version-me/commit/9f41f4e0e089a42486e36a0af0cc838870ab4095))
+
 <a name="2.9.12"></a>
 ## [2.9.12](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.12) (2023-3-13)
 
