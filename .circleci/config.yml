@@ -30,7 +30,7 @@ jobs:
   build-job:
     docker:
       - image: circleci/node:10
-    working_directory: ~/repo
+    working_directory: ~/version-me
     steps:
       - checkout
       - run: echo "Ola Jira"
@@ -43,10 +43,10 @@ jobs:
         - default: development
     docker:
       - image: circleci/note:10
-    working_directory: ~/repo
+    working_directory: ~/version-me
     steps:
        - checkout
        - run: echo "Ola Deploy doido"
        - jira/notify:
             job_type: deployment
-            environment_type: <<parameters.environment-type>>
+            environment_type: << parameters.environment-type >>
