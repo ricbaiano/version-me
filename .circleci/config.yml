@@ -1,18 +1,15 @@
+jobs:
+  build:
+    docker:
+      - image: 'circleci/node:10'
+    steps:
+      - run: echo "hello"
+orbs:
+  jira: circleci/jira@1.3.1
 version: 2.1
-orbs: # adds orbs to your configuration
-  jira: circleci/jira@1.0.5 # invokes the Jira orb, making its commands accessible
 workflows:
   build:
     jobs:
       - build:
           post-steps:
-            - jira/notify # Runs the Jira's "notify" commands after a build has finished its steps.
-jobs:
-  build:
-    docker:
-      - image: 'cimg/base:stable'
-        auth:
-          username: mydockerhub_user
-          password: mydockerhub_password  # context / project UI env-var reference
-    steps:
-      - run: echo "hello"
+            - jira/notify
