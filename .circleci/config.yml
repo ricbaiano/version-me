@@ -1,52 +1,66 @@
 version: 2.1
 
-orbs:
-  jira: circleci/jira@1.3.1
-
+orbs: # adds orbs to your configuration
+  jira: circleci/jira@1.3.1 # invokes the Jira orb, making its commands accessible
+workflows:
+  build:
+    jobs:
+      - build:
+          post-steps:
+            - jira/notify # Runs the Jira's "notify" commands after a build has finished its steps.
 jobs:
-  build-job:
+  build:
     docker:
-      - image: circleci/node:10
-    working_directory: ~/version-me
+      - image: 'cimg/base:stable'
     steps:
-      - checkout
-      - run: echo "Ola Jira"
-      - jira/notify
+      - run: echo "hello"      
+#orbs:
+#  jira: circleci/jira@1.3.1
 
-  deploy:
-    parameters:
-      environment:
-        - type: string
-        - default: development
-    docker:
-      - image: circleci/note:10
-    working_directory: ~/version-me
-    steps:
-       - checkout
-       - run: echo "Ola Deploy doido"
-       - jira/notify:
-            environment_type: << parameters.environment >>
-            job_type: deployment
+#jobs:
+#  build-job:
+#    docker:
+#      - image: circleci/node:10
+#    working_directory: ~/version-me
+#    steps:
+#      - checkout
+#      - run: echo "Ola Jira"
+#      - jira/notify
 
-    workflows:
-        build-deploy:
-            jobs:
-               - build-job
-               - deploy:
-                    name: Dev
-                    requires:
-                    - build-job
-               - deploy:
-                    name: Test
-                    requires:
-                    - Dev
-                    environment-type: testing
-               - hold:
-                    type: approval
-                    requires:
-                    - Test                
-               - deploy:
-                    name: Prod
-                    requires:
-                    - hold
-                    environment-type: production
+#  deploy:
+#    parameters:
+#      environment:
+#        - type: string
+#        - default: development
+#    docker:
+#      - image: circleci/note:10
+#    working_directory: ~/version-me
+#    steps:
+#       - checkout
+#       - run: echo "Ola Deploy doido"
+#       - jira/notify:
+#            environment_type: << parameters.environment >>
+#            job_type: deployment
+
+#    workflows:
+#        build-deploy:
+#            jobs:
+#               - build-job
+#               - deploy:
+#                    name: Dev
+#                    requires:
+#                    - build-job
+#               - deploy:
+#                    name: Test
+#                    requires:
+#                    - Dev
+#                    environment-type: testing
+#               - hold:
+#                    type: approval
+#                    requires:
+#                    - Test                
+#               - deploy:
+#                    name: Prod
+#                    requires:
+#                    - hold
+#                    environment-type: production
