@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.10.0"></a>
+## [2.10.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.10.0) (2023-5-2)
+
+### 🆕 Features
+
+* TESCI-1 - Ajuste circleci no jira 10 ([24baf94](https://www.github.com/ricbaiano/version-me/commit/24baf947c300aab7d299a31d57cbe781dd1fad6a))
+* TESCI-2 - Ajuste circleci no jira 10 ([c7f7a10](https://www.github.com/ricbaiano/version-me/commit/c7f7a10a1eb3d53e01e5eba5cfdc4fd168b5132d))
+
+### Other
+
+* TESCI-1 - Ajuste circleci no jira ([8e79db9](https://www.github.com/ricbaiano/version-me/commit/8e79db9282da1a61dc863bdd4691589a58450a90))
+* TESCI-1 - Ajuste circleci no jira 10 ([3fcf9fa](https://www.github.com/ricbaiano/version-me/commit/3fcf9fa8c7d862d9d0e49cdedd3909494ecff43c))
+
 <a name="2.9.15"></a>
 ## [2.9.15](https://www.github.com/ricbaiano/version-me/releases/tag/v2.9.15) (2023-3-13)
 
