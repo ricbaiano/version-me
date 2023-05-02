@@ -110,9 +110,12 @@ Acessar a pasta XPTO do projeto e executar:
 
 ## 📦 Linguagens, dependencias e libs utilizadas 📚:
 
-- [Dotnet 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
-- [Bootstrap]()
-- [Javascript]()
+|Dotnet 4.8|Bootstrap V3.1.1|Bootstrap-datepicker 2012|
+|:-------:|:-------:|:-------:|
+| Highcharts JS v6.1.0|jQuery-1.11.1|jQuery UI - v1.10.4
+|jQuery Placeholder Plugin v1.0|jQuery Tags Input Plugin 1.3.3|jQuery Validation Plugin v1.13.0
+|jQuery Mask Plugin v1.6.5|jQuery Cookie Plugin v1.4.1|jQuery throttle / debounce - v1.1
+|HTML5 Shiv v3.7.0|Modernizr 2.7.1 (Custom Build)|
 
 <br>
 
