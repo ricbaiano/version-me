@@ -1,7 +1,7 @@
 ﻿{
   "changelogAll": true,
   "changelog": {
-    "header": "My Changelog",
+    "header": "My Changelog ",
     "sections": [
       {
         "type": "feat",
