@@ -47,19 +47,29 @@ jobs:
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
         script: |
-          try {
-            const tags_url = context.payload.repository.tags_url + "?per_page=1"
-            const result = await github.request(tags_url)
-            const current_tag = result.data[0].name
-            await github.rest.repos.createRelease({
-              draft: false,
-              generate_release_notes: true,
-              name: current_tag,
+            // Get a list of all issues created by the PR opener
+            // See: https://octokit.github.io/rest.js/#pagination
+            const creator = context.payload.sender.login
+            const opts = github.rest.issues.listForRepo.endpoint.merge({
+              ...context.issue,
+              creator,
+              state: 'all'
+            })
+            const issues = await github.paginate(opts)
+
+            for (const issue of issues) {
+              if (issue.number === context.issue.number) {
+                continue
+              }
+
+              if (issue.pull_request) {
+                return // Creator is already a contributor.
+              }
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
               owner: context.repo.owner,
-              prerelease: false,
               repo: context.repo.repo,
-              tag_name: current_tag,
-            });
-          } catch (error) {
-            core.setFailed(error.message);
-          }
+              body: 'Welcome, new contributor!'
+            })
