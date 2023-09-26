@@ -27,6 +27,7 @@ jobs:
       run: |
         git config --local user.email "ricbaiano@gmail.com"
         git config --local user.name "ricbaiano"
+        git commit -a -m "Add changes"
     - name: Versionize Release
       id: versionize
       run: versionize --changelog-all --exit-insignificant-commits --skip-dirty
@@ -40,7 +41,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
-        tags: false
     - name: "Create release"
       if: steps.versionize.outcome == 'success'
       uses: "actions/github-script@v5"
