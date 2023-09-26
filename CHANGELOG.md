@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.10.1"></a>
+## [2.10.1](https://www.github.com/ricbaiano/version-me/releases/tag/v2.10.1) (2023-9-26)
+
+### ⚡ Continuous Integration
+
+* Configurando Codeconv ([2831ea9](https://www.github.com/ricbaiano/version-me/commit/2831ea9950ec7c81e891a49c6b19c03eec945c42))
+
 <a name="2.10.0"></a>
 ## [2.10.0](https://www.github.com/ricbaiano/version-me/releases/tag/v2.10.0) (2023-9-26)
 
